@@ -1,0 +1,9 @@
+type Account @entity {
+
+  id: ID! #id is a required field
+
+  account: String #filed2 is an optional field
+
+  balance: BigInt
+
+}
